@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://flood-detection-system-ai.netlify.app/"
+        "https://flood-detection-system-ai.netlify.app"
 
     ],
     allow_credentials=True,
